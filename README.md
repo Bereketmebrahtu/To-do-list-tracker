@@ -1,7 +1,8 @@
 # To-do-list-tracker
 
 User stories 
-Core 
+
+
 As a busy person, I want to:
 
 Add tasks to a list so that I can keep track of them
