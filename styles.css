@@ -22,20 +22,22 @@ html, body {
 
 .container {
     background-color: hsla(200, 100%, 6%, 0.3);
-    padding: 50px 30px;
-    width: 50%;
     min-width: 400px;
     max-width: 600px;
     
 } 
+
+.inner-container {
+    margin: 0;
+    padding: 40px;
+}
 
 
 .input {
     color: white;
     text-align: center;
     margin: 0;
-    padding: 10px 30px;
-    margin-bottom: 40px;
+    padding: 10px 20px;
     font-size: 2.5em;
     font-weight: normal;
 
@@ -45,13 +47,13 @@ html, body {
  li {
     list-style: none;
     font-size: large;
-    margin: 0px;
+    margin: 0;
 }
 
 .title {
     color: white;
     text-align: center;
-    margin: 0;
+    margin:20px;
     font-size: 2em; 
     font-weight: normal;
 }
@@ -65,7 +67,6 @@ html, body {
     outline-color: hsla(200, 100%, 6%, 0.3);
     color: white;
     font-weight: lighter;
-    margin-top: 20px;
     cursor: pointer;
 }
 
