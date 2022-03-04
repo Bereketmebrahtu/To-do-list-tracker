@@ -34,10 +34,17 @@ html, body {
     color: white;
     text-align: center;
     margin: 0;
+    padding: 10px 30px;
     margin-bottom: 40px;
     font-size: 2.5em;
     font-weight: normal;
+
    
+}
+
+ li {
+    list-style: none;
+    font-size: large;
 }
 
 .title {
@@ -72,8 +79,9 @@ html, body {
 .input {
     display: flex;
     flex-direction: column;
+    width: 100%;
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 30px;
 }
 
 @media only screen and (max-width: 768px) {
