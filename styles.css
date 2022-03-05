@@ -59,12 +59,10 @@ html, body {
 }
 
 .button {
-    padding: 10px 15px;
-    width: 100%;
+    padding: 0.5em;
     background-color: hsla(200, 100%, 6%, 0.3);
     border: 1px solid hsla(200, 100%, 50%);
     border-radius: 2px;
-    outline-color: hsla(200, 100%, 6%, 0.3);
     color: white;
     font-weight: lighter;
     cursor: pointer;
@@ -72,16 +70,17 @@ html, body {
 
 .input {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
     margin-bottom: 20px;
-    padding: 10px 15px;
+    padding: 0.5em;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 789px) {
     /* For mobile phones: */
     .full-screen-container {
-    width: fit-content;
+    width: 100vw;
     height: 100vh;
    
     
@@ -90,11 +89,11 @@ html, body {
 }
 
 @media only screen 
-  and (min-device-width: 280px) 
+  and (min-device-width: 220px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 0) {
 
-     * {
+     .container {
         min-width: fit-content;
         max-width: fit-content;
         
