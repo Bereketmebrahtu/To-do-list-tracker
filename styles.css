@@ -22,20 +22,22 @@ html, body {
 
 .container {
     background-color: hsla(200, 100%, 6%, 0.3);
-    padding: 50px 30px;
-    width: 50%;
     min-width: 400px;
     max-width: 600px;
     
 } 
+
+.inner-container {
+    margin: 0;
+    padding: 40px;
+}
 
 
 .input {
     color: white;
     text-align: center;
     margin: 0;
-    padding: 10px 30px;
-    margin-bottom: 40px;
+    padding: 10px 20px;
     font-size: 2.5em;
     font-weight: normal;
 
@@ -45,51 +47,67 @@ html, body {
  li {
     list-style: none;
     font-size: large;
+    margin: 0;
 }
 
 .title {
     color: white;
     text-align: center;
-    margin: 0;
-    margin-bottom: 40px;
-    font-size: 2.5em; 
+    margin:20px;
+    font-size: 2em; 
     font-weight: normal;
 }
 
-.input label {
-    color: white;
-    font-weight: lighter;
-    font-size: 1.5em;
-    margin-bottom: 7px;
-}
-
 .button {
-    padding: 10px 30px;
-    width: 100%;
+    padding: 0.5em;
     background-color: hsla(200, 100%, 6%, 0.3);
     border: 1px solid hsla(200, 100%, 50%);
     border-radius: 2px;
-    outline-color: hsla(200, 100%, 6%, 0.3);
     color: white;
     font-weight: lighter;
-    margin-top: 20px;
     cursor: pointer;
 }
 
 .input {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
     margin-bottom: 20px;
-    padding: 30px;
+    padding: 0.5em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 789px) {
     /* For mobile phones: */
     .full-screen-container {
-    min-width: auto;
-    max-width: auto;
+    width: 100vw;
+    height: 100vh;
+   
+    
     
     }
 }
-  
+
+@media only screen 
+  and (min-device-width: 220px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 0) {
+
+     .container {
+        min-width: fit-content;
+        max-width: fit-content;
+        
+
+}
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+      .container {
+          width: fit-content;
+      }
+
+}
