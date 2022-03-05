@@ -3,7 +3,9 @@
 ## User stories 
 
 
-* As a busy person, I want to:
+
+## As a busy person, I want to:
+
 
 * Add tasks to a list so that I can keep track of them
 
@@ -11,7 +13,9 @@
 
 * Delete things from the list if I don’t need to do them anymore
 
----
+
+## As a motor-impaired user, I want to:
+
 
 * As a motor-impaired user, I want to:
 
@@ -19,9 +23,10 @@
 Stretch 
 * As a busy person, I want to:
 
-* Filter out completed to-dos from my list so that I can focus on what’s left to do
----
-* Acceptance Criteria 
+
+
+## Acceptance Criteria 
+
 A working to-do list
 Tests for (at least) each user story
 A responsive, mobile-first design

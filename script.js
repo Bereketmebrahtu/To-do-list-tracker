@@ -1,3 +1,4 @@
+
 // Create a "close" button and append it to each list item
 
 const listContainer = document.querySelector('ul'); // grap list container
