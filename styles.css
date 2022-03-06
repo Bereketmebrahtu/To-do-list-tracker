@@ -23,7 +23,8 @@ html, body {
 .container {
     background-color: hsla(200, 100%, 6%, 0.3);
     padding: 50px 30px;
-    width: 50%;
+    width: 40%;
+    height: 80vh;
     min-width: 400px;
     max-width: 600px;
     
@@ -86,10 +87,17 @@ html, body {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .full-screen-container {
-    min-width: auto;
-    max-width: auto;
-    
+    .full-screen-container  {
+        max-width: fit-content;
+        min-width: fit-content
+   
+    }
+ @media only screen and (min-width: 300px) {
+    .contaner {
+        max-width: fit-content;
+        min-width: fit-content;
+        height: 60vh;
     }
 }
   
+}
