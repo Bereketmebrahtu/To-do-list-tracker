@@ -61,9 +61,10 @@ html, body {
     font-weight: lighter;
     font-size: 1.5em;
     margin-bottom: 7px;
+    padding: 10px 30px;
 }
 
-.button {
+button {
     padding: 10px 30px;
     width: 100%;
     background-color: hsla(200, 100%, 6%, 0.3);
@@ -81,7 +82,7 @@ html, body {
     flex-direction: column;
     width: 100%;
     margin-bottom: 20px;
-    padding: 30px;
+    padding: 10px 30px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -92,4 +93,3 @@ html, body {
     
     }
 }
-  
