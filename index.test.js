@@ -7,5 +7,5 @@ test("Checking an entry marks it as complete", () => {
 });
 
 test("Deleting an entry removes it from the list", () => {
-  // test goes here
+  
 });
