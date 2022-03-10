@@ -1,7 +1,3 @@
-const buttonEl = document.querySelector('.Btn');
-
-
-buttonEl.addEventListener('click', addToList)
 
 function addToList() {
 
@@ -27,7 +23,7 @@ function addToList() {
    const node = document.createElement("li");
    console.log(node)
    node.className = 'checked'
-   list.addEventListener('click', ev => {
+   list.addEventListener('submit', ev => {
      if (ev.target. === 'LI') {
        ev.target.classList.toggle('checked');
        
@@ -38,7 +34,10 @@ function addToList() {
  }
 
 // Create a new list item when clicking on the "Add" button
-function newElement() {
+const spanEl = document.querySelector('span')
+
+spanEl.addEventListener('click', newElement)
+function newElement()
   let li = document.createElement("li");
   let inputValue = document.getElementById("input").value;
   let t = document.createTextNode(inputValue);
@@ -56,12 +55,8 @@ function newElement() {
   buttonEl.appendChild(txt);
   li.appendChild(buttonEl);
 
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-      let div = this.parentElement;
-      div.style.display = "none";
-    }
+   {
+    
   }
-}
 
 
