@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Create a new list item when clicking on the "Add" button
 function newElement() {
   const li = document.createElement("li");
@@ -24,6 +25,27 @@ function newElement() {
     }
   }
 }
+=======
+const buttonEl = document.querySelector('button');
+
+
+buttonEl.addEventListener('click', addToList)
+
+function addToList() {
+
+    const input =document.getElementById("input").value;
+    const node = document.createElement("li");
+    const textnode = document.createTextNode(input);
+    if (input === '') {
+       alert("You must write something!");
+    } else {
+    node.appendChild(textnode);
+   document.getElementById("list").appendChild(node);
+   
+    }
+ }
+ 
+>>>>>>> 7ce008e1f53ad07db093ae93219e7e34e2dfabda
 
 // Add a "checked" symbol when clicking on a list item
 const list = document.querySelector('ul');

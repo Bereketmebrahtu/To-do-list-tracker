@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const form = document.querySelector("#aform");
 
 form.addEventListener('submit', function (event) {
@@ -12,6 +13,19 @@ form.addEventListener('submit', function (event) {
     todoList.innerHTML += '<li>' + todoItem + '</li>';
   }
 });
+=======
+
+test("Submitting a new task adds it to the list", addToList => {
+    const input = document.querySelector("input"); // step 1
+    input.value = "test"; // step 2
+    const spanEl = document.querySelector("button");
+    spanEl.click(); // step 3
+    const textnode = document.querySelector("input");
+    equal(textnode.textContent, "TEST"); // step 4
+    textnode.textContent = ""; // reset the page so it doesn't affect the page/other tests
+  });
+
+>>>>>>> 7ce008e1f53ad07db093ae93219e7e34e2dfabda
 
   
 test('should add a todo item to the list', function () {
