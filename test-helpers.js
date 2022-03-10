@@ -17,9 +17,12 @@ function equal(actual, expected, message) {
       console.error("Fail: " + (message || defaultMessage));
     }
   }
-  
-  function test(name, testFunction) {
-    console.group(name);
-    testFunction();
-    console.groupEnd(name);
-  }
+
+}
+
+function test(name, testFunction) {
+  console.group(name);
+  testFunction();
+  console.groupEnd(name);
+}
+

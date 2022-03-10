@@ -14,39 +14,45 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-        <title>To Do List</title>
-        <title>Bucket List</title>
-    </head>
-    <body>
-      <div class="full-screen-container">
-        <div class="container">
-          <div class="inner-container">
-          <h2 class="title">Bucket List</h2>
-               
-          
-            <div class="input">
+    <title>Bucket List</title>
+  </head>
+  <body>
+    <div class="full-screen-container">
+      <div class="container">
+        <div class="inner-container">
+        <h2 class="title">Bucket List</h2>
 
-              <input type="text" id="input" name="input" placeholder="Title...">
-              <span></span>
-              <button class="Btn">Add</button>
-                 <label for="input"></label>
-                    </div>
-                  <div class="task-lists">  
-                    <!-- <details>
-                      <summary>
-      
-                      </summary>
-                    </details> -->
-                  <ul id="list">
-                    <li id="list"></li>
+
+          <div class="input">
+
+            <input type="text" id="input" name="input" placeholder="Title...">
+            <span></span>
+           
+            <span onclick="newElement()" class="Btn">Add</span>
+               <label for="input"></label>
+                  </div>
+                <div class="task-lists">  
                   
-                  <!-- </ul> -->
-                </div> 
-                </div>
-       
-      </div>
+                <ul id="list">
+                </ul>
+
+              </div> 
+              </div>
+
+              <!-- <form id="aform">
+                <input type="text" name="todo-input">
+                <button>Submit</button>   
+              </form>                   //IMPORTANT please do not delete Needed for testing!!
+              <ul id="todo-list"></ul>
+
+              <div id="selector"></div> -->
+
+             
+
     </div>
-    <script src="test-helper.js"></script>
+  </div>
+    <script src="../test-helpers.js"></script>
+
     <script src="script.js"></script>
     <script src="index.test.js"></script>
     </body>
