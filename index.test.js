@@ -6,7 +6,6 @@
 //   const elements = document.querySelector('#aform').elements;
 //   console.log(elements)
 //   const todoItem = elements['todo-input'].value;
-  
 
 //   const todoList = document.querySelector('#todo-list');
 //   if (todoItem) {
@@ -14,22 +13,9 @@
 //   }
 // });
 
-
-
-// test("Submitting a new task adds it to the list", addToList => {
-//     const input = document.querySelector("input"); // step 1
-//     input.value = "test"; // step 2
-//     const spanEl = document.querySelector("button");
-//     spanEl.click(); // step 3
-//     const textnode = document.querySelector("input");
-//     equal(textnode.textContent, "TEST"); // step 4
-//     textnode.textContent = ""; // reset the page so it doesn't affect the page/other tests
-//   });
-
-
 // test('should add a todo item to the list', function () {
 //   const selector = document.querySelector('#selector');
-//   selector.innerHTML = '<form id="aform"><input type="text" name="todo-input"><button>Submit</button></form><ul id="todo-list"></ul>';
+//   selector.innerHTML = '<form id="aform">';
 //   const form = document.querySelector('#aform');
 //   form.elements['todo-input'].value = 'task 1';
   
@@ -41,77 +27,20 @@
 
 
 
-  
-//   test("Selecting marks item off the list", function () {
+// test("Submitting a new task adds it to the list", () => {
 
-//     const selector = document.querySelector('ul');
-    
-//     const inputEl = document.querySelector('input');
-//     inputEl.value = 'task';
-    
-    
-//     const buttonEl = document.getElementById("button");
-   
-    
-//     buttonEl.addEventListener('click', (ev) => {
-//       if (ev.target === 'LI') {
-//         ev.target.classList.remove('checked');
-      
-
-  
-//     }  
- 
-//   }, false)
-  
-// })
-
-// // test("Checking a list item and marks it as complete", () => {
-
-   
-// //     // const listItem = document.querySelector('ul')
-// //     const node = document.createElement("li");
-// //     node.classList = 'checked'
-   
-    
-// //     let list = document.querySelector('li');
-// //     addCheckedSymbol.click(); // step 3
-   
-// //     const result = document.querySelector("#result")
-// //     const listItemTextDecorationChanged = list
-// //     result.toggleAttribute = listItemTextDecorationChanged
-// //         equal(result.textContent, "RED" ); 
-  
-
-// //     list.addEventListener('click', ev => {
-// //        if (ev.target.tagName === 'LI') {
-// //          ev.target.classList.toggle('checked');
-        
-// //       }
-// //     }, false);
-// //  });
+//   //get the input
+//   const myInput = document.querySelector("input");
+//   // enter test data into inputs
+//   myInput.value = "Have some coffee";
+//   // submit the form
+//   const submitButton = document.querySelector("span");
+//   submitButton.click();
+//    // verify that the page contains the expected result
+//    const result = document.querySelector("li");
+//    equal(result.textContent, "Have some coffee");
+//    // reset the page so it doesn't affect anything else
+//    result.textContent = ""; 
 
 
-// // function assert(arg0) {
-// //   throw new Error("Function not implemented.");
-// // }
-// // test("Deleting an entry removes it from the list", () => {
-  
-// // });
-
-// // // function equal(textContent, arg1) {
-// // //   throw new Error("Function not implemented.");
-// // // 
-// =======
-
-// test("Checking an entry marks it as complete", () => {
-// //get the input
-// // reset the page so it doesn't affect anything else
-// result.textContent = ""; 
 // });
-
-// test("Deleting an entry removes it from the list", () => {
-// //get the input
-// // reset the page so it doesn't affect anything else
-// result.textContent = ""; 
-// });
-// >>>>>>> d75e5337fd56f7c5b554fdd889c99427e7f2c2c6
