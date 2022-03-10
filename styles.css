@@ -24,7 +24,6 @@ html, body {
     display: flex;
     justify-content: center;
     background-color: hsla(200, 100%, 6%, 0.3);
-
     height: 80vh;
     padding: 50px;
     min-width: 400px;
@@ -104,3 +103,5 @@ html, body {
       .container {
           width: fit-content;
       }
+
+}
