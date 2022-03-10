@@ -21,6 +21,7 @@ html, body {
 }
 
 .container {
+
   display: flex;
   justify-content: center;
   background-color: hsla(200, 100%, 6%, 0.3);
@@ -33,6 +34,7 @@ html, body {
   max-width: 600px;
   overflow: hidden;
   
+
 } 
 
 li {
@@ -217,11 +219,14 @@ and (max-device-width: 480px)
 }
 
 @media only screen 
+
 and (min-device-width: 320px) 
 and (max-device-width: 480px)
 and (orientation: landscape) {
     .container {
         width: fit-content;
     }
+
+
 
 }

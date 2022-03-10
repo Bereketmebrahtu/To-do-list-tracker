@@ -1,4 +1,5 @@
 
+
 // Create a new list item when clicking on the "Add" button
 function newElement() {
   const li = document.createElement("li");
@@ -44,3 +45,4 @@ for (i = 0; i < close.length; i++) {
     div.style.display = "none";
   }
 }
+
